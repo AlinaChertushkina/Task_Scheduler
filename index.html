@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Scheduler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h2 class="title">Планировщик задач</h2>
+        <div class="add-task_container">
+            <input type="text" id="task-input" placeholder="Задача">
+            <button id="add-task-button">Добавить задачу</button>
+        </div>
+        <ul id="task-list"></ul>
+        <p id="no-tasks-placeholder" style="display: none;">Задач нет</p>
+        <button id="clear-button" disabled>Очистить список</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
